@@ -147,13 +147,15 @@
 		font-size: 0.8em;
 	}
 
-	hr { 
-		display: block; 
-		height: 1px;
+	hr {
+		border: 0;
+		border-top: solid 1px #41484c;
+	}
+
+	hr2 {  
+		height: 5px;
     		border: 0; 
-		border-top: 1px solid #ccc;
-   		margin: 1em 0; 
-		padding: 0; 
+		border-top: solid 1px #ccc;
 	}
 
 	code {
