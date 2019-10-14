@@ -60,7 +60,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #FFF;
+		color: #EEE;
 
 		&.is-loading * {
 			@include vendor('transition', 'none !important');
@@ -114,8 +114,8 @@
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+		font-weight: 500;
+		color: #FFF;
 	}
 
 	em, i {
