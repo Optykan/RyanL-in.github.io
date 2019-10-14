@@ -4,11 +4,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 	@import "libs/skel";
 
@@ -60,12 +55,12 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #333;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #EEE;
 
 		&.is-loading * {
 			@include vendor('transition', 'none !important');
@@ -82,6 +77,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -118,8 +114,8 @@
 	}
 
 	strong, b {
-		font-weight: 300;
-		color: #666;
+		font-weight: 500;
+		color: #FFF;
 	}
 
 	em, i {
@@ -433,18 +429,18 @@
 		color: #fff !important;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #E27689;
 		border: 0;
 		cursor: pointer;
 		@include vendor('background-image', ('linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15))', 'url("images/overlay.png")'));
 		@include vendor('transition', 'background-color 0.35s ease-in-out');
 
 		&:hover {
-			background-color: #9ececc;
+			background-color: #f78b9e
 		}
 
 		&:active {
-			background-color: #7eaeac;
+			background-color: #cf6779
 		}
 	}
 
@@ -600,7 +596,7 @@
 						color: #fff;
 
 						span::before {
-							color: #e27689;
+							color: #E27689;
 						}
 					}
 				}
@@ -613,7 +609,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #222;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -699,19 +695,19 @@
 			}
 
 			&.shade-one {
-				background-color: #81918E;
+				background-color: #222;
 			}
 
 			&.shade-two {
-				background-color: #f5fafa;
+				background-color: #333;
 			}
 
 			&.shade-three {
-				background-color: #ecf1f1;
+				background-color: #444;
 			}
 
 			&.shade-four {
-				background-color: #e8edec;
+				background-color: #555;
 			}
 		}
 	}
