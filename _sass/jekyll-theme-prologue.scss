@@ -55,12 +55,12 @@
 /* Basic */
 
 	body {
-		background: #fff;
+		background: #333;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #FFF;
 
 		&.is-loading * {
 			@include vendor('transition', 'none !important');
