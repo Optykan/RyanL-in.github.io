@@ -453,7 +453,7 @@
 		header {
 			color: #666;
 			text-align: center;
-			background: #fff;
+			background: #222;
 			margin: 0;
 			padding: 1em;
 			font-size: 0.8em;
@@ -517,7 +517,7 @@
 				@include vendor('transition', 'color 0.35s ease-in-out');
 
 				&:hover {
-					color: #fff;
+					color: #666;
 				}
 			}
 		}
