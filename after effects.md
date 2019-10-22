@@ -2,7 +2,8 @@
 title: After Effects
 subtitle: Testing
 layout: "page"
-hide: true
+icon: fa-adobe
+order: 4
 ---
 
 Content goes here
