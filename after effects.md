@@ -2,7 +2,7 @@
 title: After Effects
 subtitle: Testing
 layout: "page"
-icon: fa-adobe
+icon: fa-certificate
 order: 4
 ---
 
