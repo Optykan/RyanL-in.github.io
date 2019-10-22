@@ -1,9 +1,9 @@
 ---
-title: After Effects
+title: Photoshop
 subtitle: Testing
 layout: "page"
-icon: fa-icons
-order: 4
+icon: fa-image
+order: 5
 ---
 
 Content goes here
