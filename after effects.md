@@ -2,7 +2,7 @@
 title: After Effects
 subtitle: Testing
 layout: "page"
-icon: fa-camera-retro
+icon: fa-image
 order: 4
 ---
 
