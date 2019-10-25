@@ -1,9 +1,9 @@
 ---
-title: Photoshop
+title: My Projects
 subtitle: Testing
 layout: "page"
-icon: fa-camera-retro
-order: 5
+icon: fa-image
+order: 4
 ---
 
 Content goes here
